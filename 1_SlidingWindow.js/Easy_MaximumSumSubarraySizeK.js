@@ -28,6 +28,6 @@ const max_sub_array_of_size_k = function (arr, k) {
     return maxSum;
   };
   
-  // console.log('sum:', max_sub_array_of_size_k(3, [2, 1, 5, 4])); //10
-  // console.log('sum:', max_sub_array_of_size_k(3, [2, 1, 5, 1, 3, 2])); //9
-  // console.log('sum:', max_sub_array_of_size_k(2, [2, 3, 4, 1, 5])); //7
+  console.log('sum:', max_sub_array_of_size_k([2, 1, 5, 4], 3)); //10
+  console.log('sum:', max_sub_array_of_size_k([2, 1, 5, 1, 3, 2], 3)); //9
+  console.log('sum:', max_sub_array_of_size_k([2, 3, 4, 1, 5], 2)); //7
