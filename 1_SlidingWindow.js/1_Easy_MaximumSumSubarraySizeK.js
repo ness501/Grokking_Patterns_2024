@@ -5,7 +5,7 @@ const array1 = [2, 1, 5, 1, 3, 2]  k = 3;
 Output: 9
 Explanation: Subarray with maximum sum is [5, 1, 3].
 
-Time O(N) || Space O(1)
+Time O(N) & Space O(1)
 */
 
 const max_sub_array_of_size_k = function (arr, k) {
