@@ -39,7 +39,40 @@ const non_repeat_substring = function (str) {
     return longestSub;
   };
   
-  console.log(non_repeat_substring('aabccbb')); //3
-  console.log(non_repeat_substring('abbbb')); //2
-  console.log(non_repeat_substring('abccde')); //3
-  console.log(non_repeat_substring('abccade')); //4
+  // console.log(non_repeat_substring('aabccbb')); // 3
+  // console.log(non_repeat_substring('abbbb')); // 2
+  // console.log(non_repeat_substring('abccde')); // 3
+  // console.log(non_repeat_substring('abccade')); // 4
+
+/* Longest Substring with Distinct Characters (hard)
+
+- Given a string, find the length of the longest substring, which has all distinct characters.
+
+Input: String="aabccbb"  Output: 3
+Explanation: The longest substring with distinct characters is "abc".
+
+Input: String="abbbb"    Output: 2
+Explanation: The longest substring with distinct characters is "ab".
+
+Input: String="abccde"   Output: 3
+Explanation: Longest substrings with distinct characters are "abc" & "cde".
+
+Time O(N) - where ‘N’ is the number of characters in the input 
+string.
+Space O(1) - where K is the number of distinct characters in the input string.
+
+*/
+
+const nonRepeatSubstring = function (str) {
+
+  // code your answer
+
+};
+
+
+// Time: 
+// Space: 
+console.log(nonRepeatSubstring('aabccbb')); // 3
+console.log(nonRepeatSubstring('abbbb')); // 2
+console.log(nonRepeatSubstring('abccde')); // 3
+console.log(nonRepeatSubstring('abccade')); // 4

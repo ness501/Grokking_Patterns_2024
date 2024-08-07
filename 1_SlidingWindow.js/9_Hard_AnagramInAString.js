@@ -66,6 +66,47 @@ const find_string_anagrams = function (str, pattern) {
     return resultIndices;
   };
   
-  console.log(find_string_anagrams('ppqp', 'pq')); // [1, 2]
-  console.log(find_string_anagrams('abbcabc', 'abc')); // [2,3,4]
-  console.log(find_string_anagrams('acacaacba', 'abc')); // [5,6]
+  // console.log(find_string_anagrams('ppqp', 'pq')); // [1, 2]
+  // console.log(find_string_anagrams('abbcabc', 'abc')); // [2,3,4]
+  // console.log(find_string_anagrams('acacaacba', 'abc')); // [5,6]
+
+
+/* Problem Challenge #2 - String Anagrams (hard)
+
+- Given a string and a pattern, find all anagrams of the pattern in the given string.
+
+- Every anagram is a permutation of a string. As we know, when we are not allowed to repeat characters while finding permutations of a string, we get N! permutations (or anagrams) of a string having characters.
+
+- For example, here are the six anagrams of the string “abc”:
+
+  1. abc
+  2. acb
+  3. bac
+  4. bca
+  5. cab
+  6. cba
+
+- Write a function to return a list of starting indices of the anagrams of the pattern in the given string.
+
+Input: String="ppqp", Pattern="pq"      Output: [1, 2]
+Explanation: The two anagrams of the pattern in the given string are "pq" and "qp".
+
+Input: String="abbcabc", Pattern="abc"  Output: [2, 3, 4]
+Explanation: The three anagrams of the pattern in the given string are "bca", "cab", and "abc".
+
+Time O(N + M) - where ‘N’ and ‘M’ are the number of characters in the input string and the pattern, respectively.
+Space O(M) - since, in the worst case, the whole pattern can have distinct characters that will go into the HashMap.
+*/
+
+const findStringAnagrams = function (str, pattern) {
+  
+  // code your answer 
+
+};
+
+
+// Time: 
+// Space: 
+console.log(findStringAnagrams('ppqp', 'pq')); // [1, 2]
+console.log(findStringAnagrams('abbcabc', 'abc')); // [2,3,4]
+console.log(findStringAnagrams('acacaacba', 'abc')); // [5,6]
